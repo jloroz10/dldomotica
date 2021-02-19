@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dldomotica/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/dldomotica/static/js/main.c4d1c505.chunk.js",
-    "main.js.map": "/dldomotica/static/js/main.c4d1c505.chunk.js.map",
-    "runtime-main.js": "/dldomotica/static/js/runtime-main.449d9ab6.js",
-    "runtime-main.js.map": "/dldomotica/static/js/runtime-main.449d9ab6.js.map",
-    "static/js/2.7aac4136.chunk.js": "/dldomotica/static/js/2.7aac4136.chunk.js",
-    "static/js/2.7aac4136.chunk.js.map": "/dldomotica/static/js/2.7aac4136.chunk.js.map",
-    "static/js/3.58107da2.chunk.js": "/dldomotica/static/js/3.58107da2.chunk.js",
-    "static/js/3.58107da2.chunk.js.map": "/dldomotica/static/js/3.58107da2.chunk.js.map",
-    "index.html": "/dldomotica/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/dldomotica/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.7aac4136.chunk.js.LICENSE.txt": "/dldomotica/static/js/2.7aac4136.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/dldomotica/static/media/logo.6ce24c58.svg",
-    "static/media/under_construction.e478e4d1.png": "/dldomotica/static/media/under_construction.e478e4d1.png"
+    "main.css": "/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/static/js/main.c4d1c505.chunk.js",
+    "main.js.map": "/static/js/main.c4d1c505.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36d64f7a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36d64f7a.js.map",
+    "static/js/2.7aac4136.chunk.js": "/static/js/2.7aac4136.chunk.js",
+    "static/js/2.7aac4136.chunk.js.map": "/static/js/2.7aac4136.chunk.js.map",
+    "static/js/3.58107da2.chunk.js": "/static/js/3.58107da2.chunk.js",
+    "static/js/3.58107da2.chunk.js.map": "/static/js/3.58107da2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7aac4136.chunk.js.LICENSE.txt": "/static/js/2.7aac4136.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/under_construction.e478e4d1.png": "/static/media/under_construction.e478e4d1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.449d9ab6.js",
+    "static/js/runtime-main.36d64f7a.js",
     "static/js/2.7aac4136.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.c4d1c505.chunk.js"
