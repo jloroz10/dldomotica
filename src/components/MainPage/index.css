@@ -1,4 +1,4 @@
-.loginform{
+/* .loginform{
     height: 86vh;
 }
 .login-content{
@@ -20,11 +20,11 @@
 .logo{
     height: 500px;
     width: 40%;
-}
+} */
 
 
 .colores{
-    background-color: red;
+    /* background-color: red; */
     height: 400px;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
 
 .area-img{
     height: 400px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .construction{
@@ -105,6 +105,14 @@ a{
 a:hover{
     text-decoration: none;
     color: #000;
+}
+
+.main-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 @media only screen and (max-width: 990px) {
     /* For desktop: */
@@ -227,4 +235,56 @@ a:hover{
         font-weight: bold;
     }
   
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* For desktop: */
+    body{
+        /* background-color: red; */
+    }
+
+    .area-img{
+        height: 100px;
+        background-color: blue;
+    }
+    .imagen{
+        /* height: 300px; */
+          width: 70%;
+      }
+
+    .question{
+        font-size: 10px;
+    }
+
+    .dl-area{
+        /* background-color: aqua; */
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image-area{
+   
+        /* background-color: red; */
+        height: 10vh;
+        width: 10vh;
+        border-radius: 290px;
+    
+    }
+
+    .question{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .dl-button{   
+        font-size: 12px; 
+        width: 100px;
+        height: 20px;
+    }
+    .construction{
+        height: 300px;
+        width: 70%;
+    }
+    
   }

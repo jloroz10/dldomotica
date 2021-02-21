@@ -12,7 +12,7 @@ class HeaderComponent extends Component{
 
        return(
 
-           <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-color ">
+           <nav className="navbar fixed-top navbar-dark bg-dark navbar-expand-lg navbar-color ">
             <Link to="/">
                     <img alt="logo" className="dylproject-logo"src={dldomoticaLogo}></img>
             </Link>

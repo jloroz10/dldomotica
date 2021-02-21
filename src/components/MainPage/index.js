@@ -90,20 +90,24 @@ class MainPage extends Component{
                 <div>
                     <img className="construction" alt="under construction" src={underConstruction}></img>
                 </div> */}
-<br/><br/>
+            <br/><br/>   <br/><br/>
                 <div className="dl-area">
                     <div>
                         <div className="question">Listo para progeter tu hogar?</div>
-                        <button type="button" class="btn btn-secondary">
-                            <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
-                                Contactanos
+                        {/* <button type="dl-button button" class="btn btn-secondary"> */}
+                          
+                            <span class="badge badge-secondary dl-button">
+                              <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
+                              Contactanos
                             </a>
-                        </button>
+                            </span>
+                        {/* </button> */}
                     </div>
                     <div className="dl-center image-area">
                         <img className="construction" alt="under construction" src={cctv}></img>
                     </div>
                 </div>
+           
             </div>
             
         )
