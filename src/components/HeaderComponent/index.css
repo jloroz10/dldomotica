@@ -1,0 +1,19 @@
+.dylproject-logo{
+    height:55px;
+    
+}
+
+a{
+    padding: 0;
+}
+nav a:hover {
+    color: #999;
+ }
+.navbar-color{
+    /* background-color: #003562; */
+    background-color: #14568B;
+}
+
+.menu-option{
+    color:#FFF;
+}

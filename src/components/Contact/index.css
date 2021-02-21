@@ -1,0 +1,25 @@
+h1{
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+.contacto-area{
+    /* background-color: red; */
+    height: 400px;
+
+}
+.contacto-renglon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-logo{
+    height: 30px;
+}
+
+.contacto-detalle{
+    font-size: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: right;
+    margin-left: 10px;
+}

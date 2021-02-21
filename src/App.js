@@ -1,18 +1,25 @@
 
 import './App.css';
-
-import underConstruction from "./img/under_construction.png";
-import logo from "./img/dldomotica_portada.JPG";
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import Contact from './components/Contact';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
+import MainPage from './components/MainPage';
 function App() {
   return (
     <div className="App">
-        <div>
-			<img className="logo" alt="logo" src={logo}></img>
-		</div>
-       <div>
-          <img className="construction" alt="under construction" src={underConstruction}></img>
-        </div>
+     
+        
+      <BrowserRouter>
+     <HeaderComponent/>
+     <Switch>
+         <Route exact path="/" component={MainPage}/>
+         <Route exact path="/contact" component={Contact}/>
+     </Switch>
+     <FooterComponent/>
+    </BrowserRouter>
     </div>
+  
   );
 }
 
