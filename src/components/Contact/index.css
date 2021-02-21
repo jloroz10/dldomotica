@@ -1,10 +1,23 @@
-h1{
-    margin-top: 20px;
-    margin-bottom: 130px;
+
+.main-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: darkblue; */
 }
 .contacto-area{
     /* background-color: red; */
     height: 400px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 
 }
 .contacto-renglon{
@@ -23,3 +36,24 @@ h1{
     justify-content: right;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 517px) {
+   h1{
+       font-size: 30px;
+   }
+    .contacto-detalle{
+        font-size: 20px;
+        width: 200px;
+        display: flex;
+        justify-content: right;
+        margin-left: 10px;
+    }
+    .contacto-detalle{
+        font-size: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: right;
+        margin-left: 10px;
+    }
+  
+  }

@@ -11,9 +11,22 @@ nav a:hover {
  }
 .navbar-color{
     /* background-color: #003562; */
-    background-color: #14568B;
+    background-color: #ddd;
 }
 
-.menu-option{
-    color:#FFF;
+
+
+/* .navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #000;
+    border:none;
+    color: red;
 }
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 5px;
+} */

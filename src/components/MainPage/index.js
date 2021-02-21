@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './index.css';
 import underConstruction from "../../img/under_construction.png";
 import logo from "../../img/logotipo.png";
-import domotica from "../../img/domotica-5.jpg";
+import cctv from "../../img/cctv.svg";
 import dldomoticaLogoBlack from '../../img/logotipo_black.png';
 // import AuthenticationService from '../AuthenticationService.js';
 class MainPage extends Component{
@@ -56,12 +56,12 @@ class MainPage extends Component{
             //         </div>
             //     </div>
             // </div>
-            <div className="container">
+            <div className="container main-area">
      
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                {/* <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="area-img carousel-item active">
-                         <img className="imagen d-block w-100 img-carousel-area" alt="logo" src={dldomoticaLogoBlack}></img>
+                         <img className="imagen d-block w-100" alt="logo" src={dldomoticaLogoBlack}></img>
                     </div>
                     <div className="area-img carousel-item">
                         <div>
@@ -83,13 +83,27 @@ class MainPage extends Component{
                 </div>
                 <div>
                     <img className="construction" alt="under construction" src={underConstruction}></img>
-                </div>
+                </div> */}
                 {/* <div>
 			        <img className="logo" alt="logo" src={logo}></img>
 		        </div>
                 <div>
                     <img className="construction" alt="under construction" src={underConstruction}></img>
                 </div> */}
+<br/><br/>
+                <div className="dl-area">
+                    <div>
+                        <div className="question">Listo para progeter tu hogar?</div>
+                        <button type="button" class="btn btn-secondary">
+                            <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
+                                Contactanos
+                            </a>
+                        </button>
+                    </div>
+                    <div className="dl-center image-area">
+                        <img className="construction" alt="under construction" src={cctv}></img>
+                    </div>
+                </div>
             </div>
             
         )
