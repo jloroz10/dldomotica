@@ -258,7 +258,7 @@ a:hover{
 
     .dl-area{
         /* background-color: aqua; */
-        height: 50vh;
+        height: 45vh;
         display: flex;
         justify-content: space-between;
         align-items: center;

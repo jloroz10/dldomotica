@@ -90,7 +90,7 @@ class MainPage extends Component{
                 <div>
                     <img className="construction" alt="under construction" src={underConstruction}></img>
                 </div> */}
-            <br/><br/>   <br/><br/>
+           
                 <div className="dl-area">
                     <div>
                         <div className="question">Listo para progeter tu hogar?</div>

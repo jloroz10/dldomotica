@@ -57,3 +57,35 @@
     }
   
   }
+
+  @media only screen and (max-width: 480px) {
+    h1{
+        font-size: 26px;
+    }
+
+     .contacto-detalle{
+         font-size: 20px;
+         width: 100px;
+         display: flex;
+         justify-content: right;
+         margin-left: 10px;
+     }
+     .contacto-logo{
+        height: 20px;
+    }
+
+    .contacto-area{
+        /* background-color: red; */
+        height: 30vh;
+        width: 80%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+    
+    }
+   }
