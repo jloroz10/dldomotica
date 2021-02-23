@@ -16,27 +16,28 @@ class Contact extends Component{
                         Contacto
                     </h1>
                     <div className="contacto-renglon">
-                        <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
+                    <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
+                       
                          <img alt="logo" className="contacto-logo"src={whatsappLogo}></img>
-                        </a>
                         
                         <span className="contacto-detalle">3329283341</span>
+                        </a>
                     </div>
                   
                     <div className="contacto-renglon">
-                        <a href="https://www.facebook.com/dldomotica" target="_blank" rel="noopener noreferrer">
+                        <a className="button-details" href="https://www.facebook.com/dldomotica" target="_blank" rel="noopener noreferrer">
                             <img alt="logo" className="contacto-logo"src={facebookLogo}></img>    
-                        </a>
                         
                         <span className="contacto-detalle">dldomotica</span>
+                        </a>
                     </div>
                     <div className="contacto-renglon">
                        
-                             <a href="http://www.instagram.com/dldomotica" target="_blank" rel="noopener noreferrer">
-                             <img alt="logo" className="contacto-logo"src={instagramLogo}></img>
-                             </a>
+                        <a className="button-details" href="http://www.instagram.com/dldomotica" target="_blank" rel="noopener noreferrer">
+                            <img alt="logo" className="contacto-logo"src={instagramLogo}></img>
                         
-                        <span className="contacto-detalle">dldomotica</span>
+                            <span className="contacto-detalle">dldomotica</span>
+                        </a>
                     </div>
                 </div>
 

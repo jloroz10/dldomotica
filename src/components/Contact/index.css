@@ -3,23 +3,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     /* background-color: darkblue; */
 }
 
 .contacto-area{
     /* background-color: red; */
-    height: 400px;
-    width: 80%;
+    width: 50%;
     color:#fff;
     /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color:;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    font-size: 40px;
 
 }
 
@@ -27,17 +28,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 500px;
+}
+
+.button-details{
+    display: flex;
+    flex-direction: row;
 }
 .contacto-logo{
-    height: 30px;
+    height: 60px;
 }
 
 .contacto-detalle{
     font-size: 30px;
     width: 200px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     margin-left: 10px;
 }
 
