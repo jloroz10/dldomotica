@@ -27,9 +27,9 @@ class HeaderComponent extends Component{
                  <li className="nav-item">
                      <Link className="menu-option nav-link" to="/"  data-toggle="collapse" data-target=".navbar-collapse.show">Home</Link>
                 </li> 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className="nav-link menu-option" href="#"  data-toggle="collapse" data-target=".navbar-collapse.show">Servicios</a>
-                </li> 
+                </li>  */}
                 <li className="nav-item">
                      <Link className="menu-option nav-link" to="/contact"  data-toggle="collapse" data-target=".navbar-collapse.show">Contacto</Link>
                 </li> 
