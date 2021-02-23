@@ -6,6 +6,7 @@
     height: 90vh;
     /* background-color: darkblue; */
 }
+
 .contacto-area{
     /* background-color: red; */
     height: 400px;
@@ -21,10 +22,12 @@
     padding: 20px;
 
 }
+
 .contacto-renglon{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
 }
 .contacto-logo{
     height: 30px;

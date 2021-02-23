@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import './index.css';
-import facebookLogo from '../../img/face.png';
-import whatsappLogo from '../../img/whats.png';
-import instagramLogo from '../../img/insta.png';
+import facebookLogo from '../../img/facebook.svg';
+import whatsappLogo from '../../img/whatsapp.svg';
+import instagramLogo from '../../img/instagram.svg';
 import webLogo from '../../img/www.png';
 class Contact extends Component{
 

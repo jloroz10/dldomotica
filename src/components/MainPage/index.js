@@ -3,6 +3,7 @@ import './index.css';
 import underConstruction from "../../img/under_construction.png";
 import logo from "../../img/logotipo.png";
 import cctv from "../../img/cctv.svg";
+import domotica from "../../img/domotica.svg";
 import dldomoticaLogoBlack from '../../img/logotipo_black.png';
 // import AuthenticationService from '../AuthenticationService.js';
 class MainPage extends Component{
@@ -93,7 +94,7 @@ class MainPage extends Component{
            
                 <div className="dl-area">
                     <div className="dl-center image-area">
-                        <img className="construction" alt="under construction" src={cctv}></img>
+                        <img className="construction" alt="under construction" src={domotica}></img>
                     </div>
                     <div className="question-area">
                         <div className="question">Listo para llevar tu hogar al siguiente nivel?</div>
