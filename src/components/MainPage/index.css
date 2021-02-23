@@ -61,14 +61,14 @@
   .dl-area{
       /* background-color: aqua; */
       /* height:90%; */
-      /* width: 90%; */
+       width: 100%; 
       display: flex;
       justify-content: space-around;
       align-items: center;
       border-color: red;
       /* background-color: darkblue; */
       border-radius: 20px;
-      box-shadow: 2px 2px 2px 2px rgba(243, 240, 240, 0.2);
+      /* box-shadow: 2px 2px 2px 2px rgba(243, 240, 240, 0.2); */
       padding: 20px;
   }
 .dl-center{
