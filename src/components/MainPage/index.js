@@ -56,7 +56,7 @@ class MainPage extends Component{
             //         </div>
             //     </div>
             // </div>
-            <div className="container main-area">
+            <div className="main-area">
      
                 {/* <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
@@ -92,19 +92,19 @@ class MainPage extends Component{
                 </div> */}
            
                 <div className="dl-area">
-                    <div>
-                        <div className="question">Listo para progeter tu hogar?</div>
+                    <div className="dl-center image-area">
+                        <img className="construction" alt="under construction" src={cctv}></img>
+                    </div>
+                    <div className="question-area">
+                        <div className="question">Listo para llevar tu hogar al siguiente nivel?</div>
                         {/* <button type="dl-button button" class="btn btn-secondary"> */}
                           
-                            <span class="badge badge-secondary dl-button">
-                              <a target="_blank" className="button-details" href="https://wa.me/5213329283341">
-                              Contactanos
+                            <span class="badge dl-button mt-3">
+                              <a target="_blank" className="" href="https://wa.me/5213329283341">
+                                 Contactanos
                             </a>
                             </span>
                         {/* </button> */}
-                    </div>
-                    <div className="dl-center image-area">
-                        <img className="construction" alt="under construction" src={cctv}></img>
                     </div>
                 </div>
            

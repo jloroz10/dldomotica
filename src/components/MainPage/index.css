@@ -1,27 +1,3 @@
-/* .loginform{
-    height: 86vh;
-}
-.login-content{
-    width: 300px;    
-    height: 300px;
-}
-
-.input{
-    width: 220px;
-}
-
-.login-label{
-    width: 200px;
-}
-.login{
-    font-family: 'Baloo Bhai 2', cursive;
-}
-
-.logo{
-    height: 500px;
-    width: 40%;
-} */
-
 
 .colores{
     /* background-color: red; */
@@ -39,16 +15,9 @@
     align-items: center;
 
 }
-.img-carousel-area{
-    /* background-color: blue; */
-    height: 90%;
-    width: 60%;
-}
 
-.imagen{
-  /* height: 300px; */
-    width: 70%;
-}
+
+
 
 .area-img{
     height: 400px;
@@ -61,26 +30,45 @@
 }
 
 
-  body{
+  body, html{
       /* background-color: gray; */
+      margin: 0;
+      height: 100%;
+  }
+  
+  .question-area{
+      width: 500px;
   }
   .question{
       font-size: 40px;
+      color: #fff;
   }
 
   /* main-area{
       display: ;
   } */
+  .main-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* width: 100%; */
+    background-color:#003562; 
+
+}
+
   .dl-area{
       /* background-color: aqua; */
-      height: 80vh;
+      /* height:90%; */
+      /* width: 90%; */
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       border-color: red;
       /* background-color: darkblue; */
       border-radius: 20px;
-      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 2px 2px rgba(243, 240, 240, 0.2);
       padding: 20px;
   }
 .dl-center{
@@ -91,157 +79,31 @@
 .image-area{
    
     background-color:#eee;
-    height: 50vh;
-    width: 50vh;
+    height: 65vh;
+    width: 65vh;
     border-radius: 250px;
 
 }
 
+.dl-button{   
+    font-size: 22px; 
+    width: 170px;
+    height: 38px;
+    background-color: gray;
+}
+
 a{
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
 a:hover{
     text-decoration: none;
-    color: #000;
+    color: blue;
 }
 
-.main-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-@media only screen and (max-width: 990px) {
-    /* For desktop: */
-    body{
-        /* background-color: red; */
-    }
-
-    .area-img{
-        height: 100px;
-        background-color: blue;
-    }
-    .imagen{
-        /* height: 300px; */
-          width: 70%;
-      }
-
-    .question{
-        font-size: 30px;
-    }
-
-    .dl-area{
-        /* background-color: aqua; */
-        height: 80vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .image-area{
-   
-        background-color: #ccc;
-        height: 40vh;
-        width: 40vh;
-        border-radius: 250px;
-    
-    }
-  
-  }
-
-  @media only screen and (max-width: 767px) {
-    /* For desktop: */
-    body{
-        /* background-color: red; */
-    }
-
-    .area-img{
-        height: 100px;
-        background-color: blue;
-    }
-    .imagen{
-        /* height: 300px; */
-          width: 70%;
-      }
-
-    .question{
-        font-size: 30px;
-    }
-
-    .dl-area{
-        /* background-color: aqua; */
-        height: 80vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .image-area{
-   
-        background-color: #ccc;
-        height: 30vh;
-        width: 30vh;
-        border-radius: 250px;
-    
-    }
-
-    .question{
-        font-size: 20px;
-    }
-  
-  }
-
-  @media only screen and (max-width: 517px) {
-    /* For desktop: */
-    body{
-        /* background-color: red; */
-    }
-
-    .area-img{
-        height: 100px;
-        background-color: blue;
-    }
-    .imagen{
-        /* height: 300px; */
-          width: 70%;
-      }
-
-    .question{
-        font-size: 30px;
-    }
-
-    .dl-area{
-        /* background-color: aqua; */
-        height: 70vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .image-area{
-   
-        background-color: #ccc;
-        height: 25vh;
-        width: 25vh;
-        border-radius: 250px;
-    
-    }
-
-    .question{
-        font-size: 15px;
-        font-weight: bold;
-    }
-  
-  }
 
   @media only screen and (max-width: 480px) {
-    /* For desktop: */
-    body{
-        /* background-color: red; */
-    }
 
     .area-img{
         height: 100px;
@@ -256,20 +118,40 @@ a:hover{
         font-size: 10px;
     }
 
-    .dl-area{
-        /* background-color: aqua; */
-        height: 45vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
+    .main-area{
+        /* margin-top: 90px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* height: 120vh; */
+        /* width: 100%; */
+        background-color:#003562; 
+    
+    }
+    
+      .dl-area{
+          /* background-color: aqua; */
+          /* height: 100%; */
+    
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: space-around;
+          border-color: red;
+          /* background-color: darkblue; */
+          /* border-radius: 20px; */
+          /* box-shadow: 2px 2px 2px 2px rgba(255,255, 255, 0.9); */
+          padding: 20px;
+      }
     .image-area{
    
         /* background-color: red; */
-        height: 10vh;
-        width: 10vh;
+        height: 30vh;
+        width: 30vh;
         border-radius: 290px;
+        margin-bottom: 30px;
     
     }
 
@@ -284,7 +166,7 @@ a:hover{
     }
     .construction{
         height: 300px;
-        width: 70%;
+        height: 30%;
     }
     
   }
