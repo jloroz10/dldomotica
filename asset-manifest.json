@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.a13c8e80.chunk.css",
-    "main.js": "/static/js/main.4351a8d3.chunk.js",
-    "main.js.map": "/static/js/main.4351a8d3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.641439ec.js",
-    "runtime-main.js.map": "/static/js/runtime-main.641439ec.js.map",
-    "static/js/2.8489ec85.chunk.js": "/static/js/2.8489ec85.chunk.js",
-    "static/js/2.8489ec85.chunk.js.map": "/static/js/2.8489ec85.chunk.js.map",
-    "static/js/3.0fb6a990.chunk.js": "/static/js/3.0fb6a990.chunk.js",
-    "static/js/3.0fb6a990.chunk.js.map": "/static/js/3.0fb6a990.chunk.js.map",
+    "main.css": "/static/css/main.8194f71e.chunk.css",
+    "main.js": "/static/js/main.1f8772db.chunk.js",
+    "main.js.map": "/static/js/main.1f8772db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bd6dc41.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bd6dc41.js.map",
+    "static/js/2.f5b07505.chunk.js": "/static/js/2.f5b07505.chunk.js",
+    "static/js/2.f5b07505.chunk.js.map": "/static/js/2.f5b07505.chunk.js.map",
+    "static/js/3.9e489c92.chunk.js": "/static/js/3.9e489c92.chunk.js",
+    "static/js/3.9e489c92.chunk.js.map": "/static/js/3.9e489c92.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a13c8e80.chunk.css.map": "/static/css/main.a13c8e80.chunk.css.map",
-    "static/js/2.8489ec85.chunk.js.LICENSE.txt": "/static/js/2.8489ec85.chunk.js.LICENSE.txt",
+    "static/css/main.8194f71e.chunk.css.map": "/static/css/main.8194f71e.chunk.css.map",
+    "static/js/2.f5b07505.chunk.js.LICENSE.txt": "/static/js/2.f5b07505.chunk.js.LICENSE.txt",
     "static/media/cctv.8c1f2b3f.svg": "/static/media/cctv.8c1f2b3f.svg",
     "static/media/domotica.7afff342.svg": "/static/media/domotica.7afff342.svg",
     "static/media/facebook.70a22f3b.svg": "/static/media/facebook.70a22f3b.svg",
     "static/media/instagram.87378408.svg": "/static/media/instagram.87378408.svg",
-    "static/media/logo_blanco.eec61260.png": "/static/media/logo_blanco.eec61260.png",
     "static/media/logotipo.57e70108.png": "/static/media/logotipo.57e70108.png",
     "static/media/logotipo_black.06a62720.png": "/static/media/logotipo_black.06a62720.png",
+    "static/media/seccion-en-construccion.84f749c1.png": "/static/media/seccion-en-construccion.84f749c1.png",
     "static/media/under_construction.e478e4d1.png": "/static/media/under_construction.e478e4d1.png",
     "static/media/whatsapp.77504675.svg": "/static/media/whatsapp.77504675.svg",
     "static/media/www.85a222dc.png": "/static/media/www.85a222dc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.641439ec.js",
-    "static/js/2.8489ec85.chunk.js",
-    "static/css/main.a13c8e80.chunk.css",
-    "static/js/main.4351a8d3.chunk.js"
+    "static/js/runtime-main.3bd6dc41.js",
+    "static/js/2.f5b07505.chunk.js",
+    "static/css/main.8194f71e.chunk.css",
+    "static/js/main.1f8772db.chunk.js"
   ]
 }
