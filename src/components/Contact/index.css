@@ -34,6 +34,12 @@
 .button-details{
     display: flex;
     flex-direction: row;
+    color:#FFF !important;
+}
+.button-details:hover{
+    display: flex;
+    flex-direction: row;
+    color:#aaa !important;
 }
 .contacto-logo{
     height: 60px;
