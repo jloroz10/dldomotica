@@ -7,7 +7,9 @@ import webLogo from '../../img/www.png';
 import underConstruction from "../../img/seccion-en-construccion.png";
 class Tutoriales extends Component{
 
+
     render(){
+
         return(
             
             <div className="tutoriales-main-area">

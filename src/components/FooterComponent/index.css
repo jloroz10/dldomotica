@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 300px;
+    width: inherit;
     height: inherit;
     padding: 10px;
     margin:0;
@@ -45,6 +45,11 @@
     text-decoration: none;
     color: azure;
     padding-right: 10px;
+}
+.counter{
+    margin-right: 0;
+    margin-left: auto;
+    color: #eee;
 }
 
 a:hover{
